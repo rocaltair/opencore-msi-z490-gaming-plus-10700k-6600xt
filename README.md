@@ -6,7 +6,7 @@ version 0.7.7
 
 # Hardware
 * CPU: intel i7-10700k
-* montherboard: MSI z490 gaming plus
+* motherboard: MSI z490 gaming plus
 * graphics: AMD Radeon RX 6600xt
 * Memmory: 16GB x 2
  
