@@ -17,6 +17,9 @@ version 0.7.7
 	* very important: `SystemProductName: iMac20,1` (already in config.plist)
 * ethernet RTL8125B on MSI z490 gaming plus:
 	* LucyRTL8125Ethernet.kext: use version `V1.1.0d12` (under `EFI/OC/Kexts/LucyRTL8125Ethernet.kext`) other than `V1.1.0`, or ethernet could not be found 
+* HDMI / DisplayPort:
+	* set `alcid=2` in `boot-args` (already set)
+	* use [MonitorControl](https://github.com/MonitorControl/MonitorControl) to controls your external display brightness and volume by yourself
 
 # Installation steps
 * make partition as ESP partition, we shall use it under the following, or we can just use the default one
